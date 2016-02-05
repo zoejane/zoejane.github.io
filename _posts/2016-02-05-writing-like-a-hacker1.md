@@ -17,11 +17,12 @@ categories: Programming
 根据[jekyll的官方网站](http://jekyllrb.com/)，运行以下代码
 
 ``` 
-$ gem install jekyll
-~ $ jekyll new my-awesome-site
-~ $ cd my-awesome-site
-~/my-awesome-site $ jekyll serve
+$ gem install jekyll  
+~ $ jekyll new my-awesome-site  
+~ $ cd my-awesome-site  
+~/my-awesome-site $ jekyll serve  
 ```
+
 ### 1.解决gem服务器问题
 第一步gem install的时候，就发现连不上，  
 提示 "Unable to download data from http://ruby.taobao.org/"。  
@@ -29,10 +30,10 @@ $ gem install jekyll
 搜索google后，得到答案；
 
 ```
-1.gem sources --remove http://ruby.taobao.org/
-2.gem sources -a https://ruby.taobao.org/
-3. 查看源对不对
-gem sources -l 
+1.gem sources --remove http://ruby.taobao.org/  
+2.gem sources -a https://ruby.taobao.org/  
+3. 查看源对不对  
+gem sources -l   
 ```
 顺利搞定。
 
