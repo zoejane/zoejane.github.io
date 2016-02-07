@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hyde</title>
-    <description>A brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
+    <title>Zoe Jane</title>
+    <description>Music. Programming. Love. Life.</description>
     <link>http://hyde.getpoole.com//</link>
     <atom:link href="http://hyde.getpoole.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Feb 2016 22:59:52 +0800</pubDate>
-    <lastBuildDate>Sun, 07 Feb 2016 22:59:52 +0800</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2016 23:06:08 +0800</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2016 23:06:08 +0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
