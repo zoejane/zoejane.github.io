@@ -6,9 +6,56 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Feb 2016 19:55:08 +0800</pubDate>
-    <lastBuildDate>Fri, 05 Feb 2016 19:55:08 +0800</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2016 22:12:18 +0800</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2016 22:12:18 +0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>写作班预习——初心（为什么加入写作班？）</title>
+        <description>&lt;p&gt;春节后，写作班即将开课。&lt;br /&gt;
+倍感期待，但是也有无从下手之感。&lt;br /&gt;
+所以，今天也练习着用写作的方式，梳理一下自己头脑中的思绪。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;为什么自己想加入这个课程？&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;第一，是觉得写作本身是一种创作，而创作的过程中有一种乐趣。&lt;/h3&gt;
+&lt;p&gt;就像那时感觉到音乐在手指尖流淌的时候，会觉得内心其实充满了热情如火的想要表达的欲望，我总觉得内心有一种呼之欲出的感情，我找不到出口。我想要它能够通过音乐、通过文字、通过不同的创作的方式去表达出来。我觉得这种表达，是对内心郁结的纾解，也有一种充实的快乐。
+我希望通过这门课程，更好的表达自己，更好的去享受创作的快乐。  &lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;第二，写作本身也是一种交流方式，它带有一种杠杆的力量。&lt;/h3&gt;
+&lt;p&gt;因为互联网的存在，现在的我们能够跨越地域的限制，去认识更多有趣的人，一起分享和交流。文字之中，有一种交流的快乐，也会有一种找到知己的快乐。&lt;br /&gt;
+之前的自己，把阅读和写作都当成一种比较个人化的事情在做，但是python班给了我一种不一样的体验，包括在udacity和跨越大半个地球的老师交流的时候，我慢慢感觉到了这种文字传播所带来的力量。
+一个人的经验和力量是有限的，但是文字的积累和传承，还有分享和鼓励，让我感觉到写作像一个杠杆，能够放大一个人所能触及和影响的世界。&lt;br /&gt;
+写作，带你感受更大的世界，分享更大的世界，也影响更大的世界。&lt;br /&gt;
+我也想通过这门课程，探索写作的这样一种杠杆的力量。  &lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;第三，是对自己职业方向转变的探索和积累。&lt;/h3&gt;
+&lt;p&gt;就像之前和王老师的交流提到的，如果想要转行，我之前的积累可以说是很弱，也别人的差距很大。&lt;br /&gt;
+不过过去的事情已经过去，我现在能够做的，是用现在的输出去弥补，去改变。&lt;br /&gt;
+过去虽然有差距，不代表我现在能输出能创作的东西就一定会弱，更不代表未来。&lt;br /&gt;
+也许，多一点点的主动，多一点点准备，多一点点的的思考，提前走一步，就会有不同的体会。&lt;br /&gt;
+做这些事情真的很难吗？其实也不是。只是需要一些用心，一些主动。迈出很小的一步，再一步，再一步，这些改变也会慢慢积累起来，给自己更多的勇气和力量走下去。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;改变&lt;/h2&gt;
+&lt;p&gt;改变的过程或许漫长，或许有很多困难。&lt;br /&gt;
+有时候是真的想犯懒了，不想去动了。&lt;br /&gt;
+确实也没有人逼我去改变。其实如果我想停下，随时也可以停下。&lt;br /&gt;
+我是觉得，毕竟是我自己想要去改变，毕竟是我自己觉得，这样下去真的不行。&lt;br /&gt;
+我想尝试着每天走一点点，走很小的一步，并且也多给自己一些不同的支持力量，还是试着更平静的把这条改变的路好好的走下去。&lt;br /&gt;
+内心有种平静，我觉得这是种好现象。不是一种激动、冲动和躁动让我想要头脑发热的去改变，而是一种更平静和坚定的心情。  &lt;/p&gt;
+
+&lt;p&gt;加油，每天前进一点点，就很好。&lt;br /&gt;
+就像今天，可以心情平静的坐下来写些东西，就很好。&lt;br /&gt;
+我觉得，写作本身也可以带给我一种快乐和平静。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Feb 2016 22:09:12 +0800</pubDate>
+        <link>http://yourdomain.com/writing/2016/02/07/writing-lesson-pre-learn.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/writing/2016/02/07/writing-lesson-pre-learn.html</guid>
+        
+        
+        <category>Writing</category>
+        
+      </item>
     
       <item>
         <title>Writing like a hacker</title>
@@ -69,8 +116,9 @@ gem sources -l
 之前的Jekyll网站就从本地传到了互联网上啦。&lt;/p&gt;
 
 &lt;h2 id=&quot;jekyllpost&quot;&gt;在Jekyll上创建自己的第一个post&lt;/h2&gt;
-&lt;p&gt;### 1.文章的书写
-复制原来post文件夹下的默认文档，仿照其格式，将相应的标题、内容等替换成“hello,world”。&lt;br /&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;1.文章的书写&lt;/h3&gt;
+&lt;p&gt;复制原来post文件夹下的默认文档，仿照其格式，将相应的标题、内容等替换成“hello,world”。&lt;br /&gt;
 以后自己写文章，就可以方便的在本地用markdown书写，然后方便的通过github存档和上传啦，想到这里，心情顿时很轻松。&lt;br /&gt;
 不过写完后发现，文章在网站上并没有显示出来。&lt;br /&gt;
 搜索了整理Jekyll的文件夹，也暂时不知道如何改起。&lt;/p&gt;
@@ -80,14 +128,14 @@ gem sources -l
 然后在GitHub上同步，这时发现，运行jekyll serve后，网站文件夹下有些文件已经自动进行了相应的更新，使我新撰写的文章能够自动显示在网站上。&lt;br /&gt;
 同步后，测试zoejane.github.io，顺利运行成功，新的文章发布到互联网上去啦！&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;小结&lt;/h2&gt;
+&lt;h2 id=&quot;section-3&quot;&gt;小结&lt;/h2&gt;
 &lt;p&gt;一番折腾下来，发现也没有我想象中那么难。而且觉得markdown+github的形式，使用起来很清爽，自主性也很高，我觉得我还挺喜欢这种写作方式的。&lt;br /&gt;
 在GitHub上顺利安家，以后决定要多多练习写文章啦。&lt;br /&gt;
 我终于又有了一片让我自由书写的地方，感觉真好。我又回来啦！&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Feb 2016 19:08:12 +0800</pubDate>
-        <link>http://yourdomain.com/programming/2016/02/05/writing-like-a-hacker1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/programming/2016/02/05/writing-like-a-hacker1.html</guid>
+        <link>http://yourdomain.com/programming/2016/02/05/writing-like-a-hacker.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/programming/2016/02/05/writing-like-a-hacker.html</guid>
         
         
         <category>Programming</category>
