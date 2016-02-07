@@ -1,0 +1,37 @@
+<p>为Jekyll更换模板</p>
+
+<h2>搜索模板</h2>
+
+<ul>
+<li>Google搜索Jekyll Template</li>
+<li>发现比较简洁的模板Hyde <a href="http://hyde.getpoole.com/">Demo</a>  <a href="http://jekyllthemes.io/theme/8068127/hyde">代码下载</a></li>
+</ul>
+
+<h2>安装和使用模板</h2>
+
+<ul>
+<li>下载解压后复制到自己相应的GitHub repo，如zoejane.github.io</li>
+<li>在terminal里运行jekyll serve</li>
+</ul>
+
+<h2>修复错误</h2>
+
+<h3><a href="https://teamtreehouse.com/community/jekyllpaginate-gem">错误1</a></h3>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Deprecation: You appear to have pagination turned on, but you haven&#39;t included the `jekyll-paginate` gem. Ensure you have `gems: [jekyll-paginate]` in your configuration file.
+</code></pre></div>
+<ul>
+<li>gem install jekyll-paginate<br></li>
+<li>open _config.yml, add add the following line:
+    <code>
+    # Gems
+    gems: [jekyll-paginate]
+</code><br></li>
+<li>run jekyll serve<br></li>
+</ul>
+
+<h3><a href="https://github.com/poole/poole/issues/99">错误2</a></h3>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check http://jekyllrb.com/docs/upgrading/ for more info. 
+</code></pre></div>
+<ul>
+<li>remove relative_permalinks: true from config.yml</li>
+</ul>
