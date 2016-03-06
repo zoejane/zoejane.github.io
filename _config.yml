@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            Zoe Jane
 tagline:          'A Jekyll theme'
 description:      'Music. Programming. Love. Life.'
-url:              http://hyde.getpoole.com
+url:              http://zoejane.net
 baseurl:          /
 
 author:
