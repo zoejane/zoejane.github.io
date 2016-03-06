@@ -89,41 +89,36 @@
       <div class="post">
   <h1 class="post-title">为Jekyll更换模板</h1>
   <span class="post-date">07 Feb 2016</span>
-  <h2>搜索模板</h2>
-
+  <h2 id="section">搜索模板</h2>
 <ul>
-<li>Google搜索Jekyll Template</li>
-<li>发现比较简洁的模板Hyde <a href="http://hyde.getpoole.com/">Demo</a>  <a href="http://jekyllthemes.io/theme/8068127/hyde">代码下载</a></li>
+  <li>Google搜索Jekyll Template</li>
+  <li>发现比较简洁的模板Hyde <a href="http://hyde.getpoole.com/">Demo</a>  <a href="http://jekyllthemes.io/theme/8068127/hyde">代码下载</a></li>
 </ul>
 
-<h2>安装和使用模板</h2>
-
+<h2 id="section-1">安装和使用模板</h2>
 <ul>
-<li>下载解压后复制到自己相应的GitHub repo，如zoejane.github.io</li>
-<li>在terminal里运行jekyll serve</li>
+  <li>下载解压后复制到自己相应的GitHub repo，如zoejane.github.io</li>
+  <li>在terminal里运行jekyll serve</li>
 </ul>
 
-<h2>修复错误</h2>
+<h2 id="section-2">修复错误</h2>
+<p>### <a href="https://teamtreehouse.com/community/jekyllpaginate-gem">错误1</a>
+<code>
+Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `gems: [jekyll-paginate]` in your configuration file.
+</code>
+- gem install jekyll-paginate<br />
+- open _config.yml, add add the following line:
+		<code>
+		# Gems
+		gems: [jekyll-paginate]
+		</code><br />
+- run jekyll serve  </p>
 
-<h3><a href="https://teamtreehouse.com/community/jekyllpaginate-gem">错误1</a></h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">Deprecation: You appear to have pagination turned on, but you haven&#39;t included the `jekyll-paginate` gem. Ensure you have `gems: [jekyll-paginate]` in your configuration file.
-</code></pre></div>
-<ul>
-<li>gem install jekyll-paginate<br></li>
-<li>open _config.yml, add add the following line:
-    <code>
-    # Gems
-    gems: [jekyll-paginate]
-</code><br></li>
-<li>run jekyll serve<br></li>
-</ul>
-
-<h3><a href="https://github.com/poole/poole/issues/99">错误2</a></h3>
-<div class="highlight"><pre><code class="language-text" data-lang="text">Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check http://jekyllrb.com/docs/upgrading/ for more info. 
-</code></pre></div>
-<ul>
-<li>remove relative_permalinks: true from config.yml</li>
-</ul>
+<h3 id="httpsgithubcompoolepooleissues99"><a href="https://github.com/poole/poole/issues/99">错误2</a></h3>
+<p><code>
+Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check http://jekyllrb.com/docs/upgrading/ for more info. 
+</code>
+- remove relative_permalinks: true from config.yml</p>
 
 </div>
 
@@ -133,27 +128,27 @@
     
       <li>
         <h3>
-          <a href="/writing/2016/02/07/writing-lesson-pre-learn/">
-            写作班预习——初心（为什么加入写作班？）
-            <small>07 Feb 2016</small>
+          <a href="/2016/02/11/change-career-thinking/">
+            Change Career Thinking
+            <small>11 Feb 2016</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/programming/2016/02/05/writing-like-a-hacker/">
-            Writing like a hacker
-            <small>05 Feb 2016</small>
+          <a href="/2016/02/10/risk-of-internet-finance/">
+            Risk Of Internet Finance
+            <small>10 Feb 2016</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/jekyll/update/2016/02/04/hello/">
-            Hello!
-            <small>04 Feb 2016</small>
+          <a href="/2016/02/10/risk-learning/">
+            Risk Learning
+            <small>10 Feb 2016</small>
           </a>
         </h3>
       </li>
