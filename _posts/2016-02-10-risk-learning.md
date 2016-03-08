@@ -1,4 +1,7 @@
-# 学习：风险
+---
+layout: post
+title:  "学习：风险"
+---
 ## 研究性课题：互联网金融平台风险的把控和选择
 
 ## 2016-02-10 [Introduction to Finance by Gautam Kaul @ Youtube](https://www.youtube.com/watch?v=ygi_VUbMCNs&index=56&list=PL8EJ1cMXXl8uDICuwbqH5pTXNeCUJmpSt)
