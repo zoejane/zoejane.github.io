@@ -5,9 +5,54 @@
     <description>Music. Programming. Love. Life.</description>
     <link>http://zoejane.net//</link>
     <atom:link href="http://zoejane.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 12 Mar 2016 19:51:51 +0800</pubDate>
-    <lastBuildDate>Sat, 12 Mar 2016 19:51:51 +0800</lastBuildDate>
+    <pubDate>Sat, 12 Mar 2016 19:54:30 +0800</pubDate>
+    <lastBuildDate>Sat, 12 Mar 2016 19:54:30 +0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>开智学习笔记001——安替：利用未来与世界对赌</title>
+        <description>&lt;p&gt;开智学习笔记001——安替：利用未来与世界对赌&lt;/p&gt;
+
+&lt;p&gt;想到未来，想到2025，会想到什么？&lt;br /&gt;
+会想到能和来自世界各地的有趣的人一起交流，生活充满朝气和可能，看到这个崭新的充满活力的世界，想到了硅谷，想到了互联网。&lt;/p&gt;
+
+&lt;p&gt;然后我想到了，英语打开的世界是我不能落下的，我所在的这个行业也不是我未来所期待的，我真心想能够离开这里，看到更自由和更大的世界。所谓赚钱啊投资啊理财啊，只是副产品而不是主业，未来有更吸引我的地方。&lt;/p&gt;
+
+&lt;p&gt;如何去做？&lt;br /&gt;
+靠近时间的源头，合法边缘参与，成为学徒。&lt;br /&gt;
+学徒、助教，能以非常低的起点，最快的速度，进入一个核心的学界里面。&lt;/p&gt;
+
+&lt;p&gt;为什么有了互联网，还有去靠近时间源头？&lt;br /&gt;
+因为同侪压力，Peer Pressure。  &lt;/p&gt;
+
+&lt;p&gt;其实我自己也有感觉，当我把目光穿越地域的制约，看到世界舞台上那些优秀的同龄人，看到中国的那些优秀的同龄人，我会发觉，真的这个年龄段有的人太优秀了。&lt;br /&gt;
+自己待在现在的环境，如果只看到目光所及的人，那么我顶多也就只能成为我目光所及的人这样的人而已，我以为这样就已经很了不起，却不知道自己只是井底之蛙，不知道外面的世界居然这么大。
+想想自己每天的烦恼，其实都很小，自己在小小的世界里，一叶障目的烦恼。我以为世界就是这样的，其实我只是没有跳出自己的井，只是坐井观天而已。  &lt;/p&gt;
+
+&lt;p&gt;如果从靠近时间源头的这个角度去思考问题，很多选择就变得很简单了。&lt;br /&gt;
+要不要学英语？要。blog搭在github还是国内平台托管？github。&lt;br /&gt;
+未来是选择在这个行业做个小小主管还是跳出这个行业？跳出这个行业。
+安心做个小职员，还是学着发展自己别的能力？要学会发展自己不容易被计算机自动化所取代的能力，发展更高端的技能。&lt;/p&gt;
+
+&lt;p&gt;放低自己，贪婪的去学习，成为靠近时间源点的一名学徒。&lt;br /&gt;
+然后利用未来的不均等可以进行时间套利，更早更快的看到未来，靠近未来。&lt;br /&gt;
+未雨绸缪，而不是被未来的趋势搞得措手不及。不是到某一天下岗了，发现怎么会这样，而是早有准备。&lt;/p&gt;
+
+&lt;p&gt;第一次做不好没有关系，就像第一次用github的手忙脚乱，就像第一次面试和上台演讲的慌张，就像第一次组织微信群的没头脑。&lt;br /&gt;
+不过我真的发现，再做一次，再一次，真的就会更好。&lt;br /&gt;
+不是因为谁的天赋，不是因为谁更聪明，仅仅是因为做过，失败过，有经验了，慢慢提升了。&lt;br /&gt;
+所谓天赋，其实很多时候也是从前努力所带来的积累，也是更愿意花时间和精力去琢磨的结果，这只是一个成长的过程。&lt;/p&gt;
+
+&lt;p&gt;learn by doing.&lt;br /&gt;
+学习=行为上的改变。&lt;br /&gt;
+勉励自己，加油！&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Mar 2016 00:00:00 +0800</pubDate>
+        <link>http://zoejane.net//2016/03/12/openmind-notes001/</link>
+        <guid isPermaLink="true">http://zoejane.net//2016/03/12/openmind-notes001/</guid>
+        
+        
+      </item>
     
       <item>
         <title>投资学习笔记——第一课20160308</title>
@@ -780,52 +825,6 @@ Hello, world!&lt;/p&gt;
         <category>jekyll</category>
         
         <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Introducing Hyde</title>
-        <description>&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
-
-&lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
-
-&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Hyde here) includes the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
-  &lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
-  &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
-  &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
-  &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;hyde-features&quot;&gt;Hyde features&lt;/h3&gt;
-
-&lt;p&gt;In addition to the features of Poole, Hyde adds the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
-  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/hyde#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/poole/hyde#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
-
-&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
-
-&lt;p&gt;Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
-
-&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
-
-&lt;p&gt;Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Dec 2013 00:00:00 +0800</pubDate>
-        <link>http://zoejane.net//2013/12/28/introducing-hyde/</link>
-        <guid isPermaLink="true">http://zoejane.net//2013/12/28/introducing-hyde/</guid>
-        
         
       </item>
     
