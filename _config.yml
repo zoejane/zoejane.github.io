@@ -33,4 +33,5 @@ defaults:
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
 kramdown:
-  input: GFM
+    input: GFM
+highlighter: rouge
