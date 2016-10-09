@@ -11,10 +11,12 @@ layout: default
 <div class="post-content">
   {{ content }}
 </div>
+<!--
 <div class="post-footer">
-  <!--
   {% include post-footer.html %}
-  -->
+</div>
+-->
+<div class="comments">
   {% include comments.html %}
 </div>
 {% if site.data.theme.show_post_navs %}
