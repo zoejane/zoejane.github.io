@@ -2,24 +2,43 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+<div class="post-header">
+  <h1 class="post-title-main">{{ page.title }}</h1>
+  {% include post-header.html %}
+</div>
+<div class="post-content">
   {{ content }}
 </div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="post-footer">
+  {% include post-footer.html %}
 </div>
+{% if site.data.theme.show_post_navs %}
+  {% if page.previous or page.next %}
+    <div class="post-navs row">
+      {% if page.previous %}
+        <div class="col-md-6 post-nav">
+          <h3 class="section-header">
+            Older
+            <span class="text-muted"> &middot; </span>
+            <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
+          </h3>
+          <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.baseurl }}">{{ page.previous.title }}</a></h2>
+          {{ page.previous.excerpt | markdownify }}
+        </div>
+      {% endif %}
+      {% if page.next %}
+        <div class="col-md-6 post-nav">
+          <h3 class="section-header">
+            Newer
+            {% unless page.previous %}
+              <span class="text-muted"> &middot; </span>
+              <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
+            {% endunless %}
+          </h3>
+          <h2 class="post-title-link"><a href="{{ page.next.url | prepend:site.baseurl }}">{{ page.next.title }}</a></h2>
+          {{ page.next.excerpt | markdownify }}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endif %}

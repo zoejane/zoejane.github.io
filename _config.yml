@@ -1,29 +1,29 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "http://zoejane.github.io" # the base hostname & protocol for your site
+title: "Zoe Jane"
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: false
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
 
-# Setup
-title:            Zoe Jane
-tagline:          'A Jekyll theme'
-description:      'Music. Programming. Love. Life.'
-url:              http://zoejane.net
-baseurl:          /
-
-author:
-  name:           'Zoe Jane'
-  url:            https://twitter.com/dadac123
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/zoejane
-
-# Gems
-gems: [jekyll-paginate]
+gems:
+  - jemoji
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

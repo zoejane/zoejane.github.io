@@ -1,118 +1,151 @@
-# Hyde
+Unfortunately, this project is **no longer maintained**.
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+I now have other priorities in my life and no longer have time to update this library. Email me at elle.kasai@gmail.com if you'd like to reach me.
 
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
+# :ribbon: Hi! I'm Shiori, a Bootstrap-based Jekyll Theme. :ribbon:
 
+![](https://cloud.githubusercontent.com/assets/992008/3955483/2b9a77ae-2702-11e4-9f28-6afb051271de.png)
 
-## Contents
+## :ribbon: Live Demo :ribbon:
 
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+### [You can view the live demo of myself here](http://ellekasai.github.io/shiori).
 
+## :ribbon: Screenshots :ribbon:
 
-## Usage
+### Desktop/Tablet
 
-Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
+![](http://cl.ly/image/3a2M1D3E3b3d/screenshot%202014-08-30%20at%206.51.34%20PM.png)
 
+## :ribbon: Color Schemes :ribbon:
 
-## Options
+I wear different colors (based on [Flat UI Colors](http://flatuicolors.com/)):
 
-Hyde includes some customizable options, typically applied via classes on the `<body>` element.
+### Dark
 
+![](http://cl.ly/image/3d3T3b3E0b45/screenshot%202014-08-30%20at%206.48.56%20PM.png)
 
-### Sidebar menu
-
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
-
-```
 ---
-layout: page
-title: About
+
+### Turquoise
+
+![](http://cl.ly/image/1s1k3m1E3n37/screenshot%202014-08-30%20at%206.49.02%20PM.png)
+
 ---
+
+### Green
+
+![](http://cl.ly/image/0G0G3u392I11/screenshot%202014-08-30%20at%206.49.08%20PM.png)
+
+---
+
+### Blue
+
+![](http://cl.ly/image/1V1C0n2U0c1s/screenshot%202014-08-30%20at%206.49.14%20PM.png)
+
+---
+
+### Purple
+
+![](http://cl.ly/image/1V283M0f1K08/screenshot%202014-08-30%20at%206.49.19%20PM.png)
+
+---
+
+### Orange
+
+![](http://cl.ly/image/2d2k010J3z3g/screenshot%202014-08-30%20at%206.49.24%20PM.png)
+
+---
+
+### Red
+
+![](http://cl.ly/image/10080E2G3c1e/screenshot%202014-08-30%20at%206.49.31%20PM.png)
+
+---
+
+## :ribbon: Usage :ribbon:
+
+**Note:** If you're not familiar with Jekyll, please read up on [Jekyll's documentation](http://jekyllrb.com/) first.
+
+[Fork this repo](http://github.com/ellekasai/shiori/fork), clone it, and then run:
+
+```
+bundle install
 ```
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
+...which installs `github-pages` gem. After that, run the server:
 
-
-### Sticky sidebar content
-
-By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disable this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
-
-```html
-<!-- Default sidebar -->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
-</div>
-
-<!-- Modified sidebar -->
-<div class="sidebar">
-  <div class="container">
-    ...
-  </div>
-</div>
+```
+jekyll serve --watch
 ```
 
+### :warning: Warning :warning:
 
-### Themes
+Once the server is started, you must go to [http://localhost:4000/shiori/](http://localhost:4000/shiori/), since `baseurl` is set as `"/shiori"` initially.
 
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
+To use  http://localhost:4000/, change `baseurl` in `_config.yml` to `""` .
 
-![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
+### Keeping Shiori Up to Date
 
-There are eight themes available at this time.
+To keep Shiori up to date, follow these steps:
 
-![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
+1. [Configure a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork)
+2. [Sync a fork](https://help.github.com/articles/syncing-a-fork) (**Note**: Use `gh-pages` instead of `master`.)
 
-To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
+## :ribbon: Customization :ribbon:
 
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
+### Required
 
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+You **should** change these files before deploying:
 
-### Reverse layout
+* `_config.yml`: You must change `baseurl`, `url`, and `title`. Others are optional.
+  * Make sure to restart the server after you update `_config.yml`.
+* `CNAME`: Change this to host Shiori on a custom domain.
+* `README.md`: Write your own README!
+* `_includes/nav.html`: Modify or remove navigation links.
+* `_includes/nav-right.html`: Modify or remove navigation links.
+* `_includes/sidebar.html`: Customize the side bar.
+* `_includes/post-header.html`: Customize the post header.
+* `_includes/post-footer.html`: Customize the post footer.
+* `_includes/footer.html`: Add copyright info, etc.
 
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
+### Optional
 
-Hyde's page orientation can be reversed with a single class.
+You **may** customize these files - they're optional:
 
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
+* `favicon.ico`: Favicon.
+* `about.html`: About page. Currently not linked from anywhere.
+* `_includes/head.html`: Extra stuff in the `<head>` tag.
+* `_includes/scripts.html`: Extra stuff before the `</body>` tag.
+* `_includes/post-header-home.html`: Customize the post header on the home page.
 
+### Customize the Theme
 
-## Development
+To change my color theme, edit `_data/theme.yml`.
 
-Hyde has two branches, but only one is used for active development.
+### Add Your Own CSS
 
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
+You can customize CSS by editing these files:
 
+* `_sass/custom-bootstrap-variables.scss`: Change Bootstrap variables ([documentation](http://getbootstrap.com/customize)).
+* `_sass/custom-scss.scss`: Add your own custom CSS.
 
-## Author
+### Category Pages
 
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+If you want to make category pages, you must manually push the generated `_site` directory to GitHub. If you're still okay with that, [@alextsui05](https://github.com/alextsui05) made an [excellent demo and tutorial for category pages](http://alextsui05.github.io/shiori/categories-in-shiori/). You can see his code on [this pull request](https://github.com/ellekasai/shiori/pull/11).
 
+## :ribbon: Author :ribbon:
 
-## License
+#### Elle Kasai
 
-Open sourced under the [MIT license](LICENSE.md).
+![](https://avatars0.githubusercontent.com/u/2410692?v=2&s=200)
 
-<3
+* http://twitter.com/ellekasai
+* http://github.com/ellekasai
+
+#### Special Thanks
+
+* [Shu Uesugi](http://github.com/chibicode) - for the guidance on this project.
+
+### License
+
+[MIT License](http://ellekasai.mit-license.org/)
