@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  "开始Jekyll的旅程"
-date:   2016-10-09 22:59:12 +0800
 comments: true
-categories:blog
 ---
 
 经过一番挣扎后，终于重回Github的怀抱，开始写Blog啦。  
