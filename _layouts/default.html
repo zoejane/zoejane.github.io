@@ -48,11 +48,11 @@
       <div class="row">
         {% if page.hide_sidebar or site.data.theme.hide_sidebar %}
           <div class="col-sm-12">
-            {{ content }}
+            {{ content }}{% include comments.html %}
           </div>
         {% else %}
           <div class="col-sm-8">
-            {{ content }}
+            {{ content }}{% include comments.html %}
           </div>
           <div class="col-sm-4">
             {% include sidebar.html %}
