@@ -7,10 +7,13 @@ layout: default
   {% include post-header.html %}
 </div>
 <div class="post-content">
-  {{ content }}{% include comments.html %}
+  {{ content }}
 </div>
 <div class="post-footer">
   {% include post-footer.html %}
+</div>
+<div class="comments">
+  {% include comments.html %}
 </div>
 {% if site.data.theme.show_post_navs %}
   {% if page.previous or page.next %}
