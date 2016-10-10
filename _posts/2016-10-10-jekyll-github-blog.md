@@ -28,6 +28,7 @@ descriptioin:
 也就是在这个搜索的过程中，我才发现原来之前是我误解了Jekyll，才搞得那么复杂。其实根本不用本地生成再提交，只要把Markdown文件写好，直接上传到GitHub上，或者直接在GitHub的网站上添加Markdown文件，GitHub就可以自动生成网站的。那一瞬间觉得，这就是我想要的方式呀！
 
 ## 如何用Jekyll + GitHub搭建Blog
+
 ### 创建GitHub Pages
 在GitHub上，你可以很方便的创建一个属于你自己的网站(GitHub Pages)，创建成功后，输入yourname.github.io，就可以进入属于你的网站啦。  
 这里是GitHub官方发布的[创建GitHub Pages] (https://pages.github.com/) 的指南，有非常详细的指引。    
