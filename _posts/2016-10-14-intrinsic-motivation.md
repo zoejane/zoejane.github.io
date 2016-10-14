@@ -20,7 +20,7 @@ descriptioin:
 - 我如何运用这个做我的人生决策？
 - 实际运用这个理论的时候，容易遇到哪方面的困难？如何克服？
 
-## 追踪路径
+## 追踪路径初始规划
 起始点：阳志平 [心智七问：如何成为内在动机驱使的人？](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=2651928764&idx=1&sn=4e8411f724077dd73c17cc8fc1b21b32&mpshare=1&scene=1&srcid=1013JJNAqkHlHgL2PzCUMaFG#rd)
 
 ### 论文
@@ -34,7 +34,7 @@ descriptioin:
 
 - 《成功，动机与目标》（有提到过这个话题）
 - 《奖赏会伤人》（阳老师提到过）
-- 《》（阳老师blog中提到过）
+- 《...》（阳老师blog中提到过其他书）
 
 ### 文章
 
