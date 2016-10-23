@@ -216,6 +216,16 @@
 					<integer>2</integer>
 				</dict>
 			</dict>
+			<key>2016-10-22-focus-homework.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>498902009.25431901</real>
+				<key>version</key>
+				<dict>
+					<key>059aab923eaddc2ae2975c7384c17b56c8134690053c82e3b029099839350844</key>
+					<integer>9</integer>
+				</dict>
+			</dict>
 			<key>2016-10-23-desicion-homework.md</key>
 			<dict>
 				<key>lastModification</key>
@@ -224,16 +234,6 @@
 				<dict>
 					<key>059aab923eaddc2ae2975c7384c17b56c8134690053c82e3b029099839350844</key>
 					<integer>7</integer>
-				</dict>
-			</dict>
-			<key>2016-10-23-focus-homework.md</key>
-			<dict>
-				<key>lastModification</key>
-				<real>498893415.23337197</real>
-				<key>version</key>
-				<dict>
-					<key>059aab923eaddc2ae2975c7384c17b56c8134690053c82e3b029099839350844</key>
-					<integer>3</integer>
 				</dict>
 			</dict>
 		</dict>
@@ -246,7 +246,7 @@
 			<string>2016-10-23-desicion-homework.md</string>
 		</array>
 		<array>
-			<string>2016-10-23-focus-homework.md</string>
+			<string>2016-10-22-focus-homework.md</string>
 		</array>
 		<array>
 			<string>2013-12-28-introducing-hyde.md</string>
@@ -321,7 +321,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>059aab923eaddc2ae2975c7384c17b56c8134690053c82e3b029099839350844</key>
-			<integer>8</integer>
+			<integer>10</integer>
 		</dict>
 		<key>sheetOrder</key>
 		<dict>

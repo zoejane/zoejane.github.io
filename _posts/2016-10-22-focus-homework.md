@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  “注意力馆 作业"
+title:  “注意力馆 作业”
 descriptioin: 
 ---
 
 ## Tips for me
+
 - 宝宝睡着的时候适合写文章
 - 抱着宝宝的时候可以学编程
 - 不在电脑旁的时候可以查看手机上的咨询
