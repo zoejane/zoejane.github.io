@@ -137,8 +137,6 @@ If you want to make category pages, you must manually push the generated `_site`
 
 #### Elle Kasai
 
-![](https://avatars0.githubusercontent.com/u/2410692?v=2&s=200)
-
 * http://twitter.com/ellekasai
 * http://github.com/ellekasai
 
