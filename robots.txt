@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /404.html
+Disallow: /search/
+
+Sitemap: https://zoejane.net/sitemap.xml 
